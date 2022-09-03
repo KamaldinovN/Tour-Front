@@ -88,8 +88,7 @@
 
 
 
-$white: #fff;
-$gray: #9b9b9b;
+
 .form__group {
   position: relative;
   padding: 25px 0 0;
@@ -100,10 +99,10 @@ $gray: #9b9b9b;
   font-family: inherit;
   width: 100%;
   border: 0;
-  border-bottom: 1px solid $gray;
+  border-bottom: 1px solid #9b9b9b;
   outline: 0;
   font-size: 14px;
-  color: $white;
+  color: #fff;
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
