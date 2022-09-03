@@ -1,0 +1,19 @@
+.tour__block{
+  margin: 75px 0 70px 17px;
+  display: flex;
+}
+.tour__text {
+  margin-left: 30px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.5;
+  &:active{
+    color: rgb(242, 203, 67);
+  }
+}
+
+.card-box{
+  display: flex;
+  justify-content: space-evenly
+}
