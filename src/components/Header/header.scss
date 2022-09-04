@@ -1,8 +1,30 @@
 .box{
-  max-width:100%;
+  max-width:1920px;
+  min-width: 900px;
   height: 736px;
-  background-image: url("images/banner1.png");
+  background-repeat: no-repeat;
+  animation: change-background 60s linear infinite ;
+
 }
+@keyframes change-background {
+  0% {
+    background-image: url("images/banner1.png")
+  }
+  25% {
+    background-image: url("images/banner2.png")
+  }
+  50% {
+    background-image: url("images/banner3.png")
+  }
+  75% {
+    background-image: url("images/banner4.png")
+  }
+  100% {
+    background-image: url("images/banner5.png")
+  }
+}
+
+
 .box__contact{
   margin: 10px 5px 10px 0;
   display: flex;
@@ -34,6 +56,9 @@
     font-weight: bold;
     line-height: 1.667;
     text-align: left;
+  }
+  a{
+    text-decoration: none;
   }
 
 }
@@ -109,16 +134,6 @@
 
 
 }
-.pagination {
-  border-radius: 50%;
-  background-color:rgb(255, 255, 255);
-  width: 15px;
-  height: 15px;
-  margin: 0 15px 0 0;
-  .pagination:active{
-    background-color: rgb(251, 211, 65);
-  }
-}
 
 .dropdown {
   float: left;
@@ -137,8 +152,6 @@
 
   margin: 0;
 }
-
-
 
 .dropdown-content {
   display: none;

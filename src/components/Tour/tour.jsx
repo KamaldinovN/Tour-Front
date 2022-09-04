@@ -4,9 +4,11 @@ import Card from "../card/card";
 import image1 from "./images/Sharm hotel.png";
 import image2 from "./images/Cyrer.png";
 
+import React from "react";
+
 const Tour = () => {
   return (
-    <>
+    <div className="tour__container">
       <div className="tour__block">
         <div className="tour__text">Горящие туры</div>
         <div className="tour__text">Популярные туры</div>
@@ -34,7 +36,7 @@ const Tour = () => {
           price={"1 259 грн"}
         />
       </div>
-    </>
+    </div>
   );
 };
 
