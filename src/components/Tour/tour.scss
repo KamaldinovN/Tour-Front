@@ -2,9 +2,8 @@
   max-width: 1920px;
   min-width: 900px;
 }
-
 .tour__block{
-  margin: 75px 0 70px 17px;
+  margin: 40px 0 70px 17px;
   display: flex;
 }
 .tour__text {
@@ -17,12 +16,7 @@
     color: rgb(242, 203, 67);
   }
 }
-
 .card-box{
   display: flex;
   justify-content: space-evenly
-}
-
-.alice-carousel__stage-item {
-  margin-left:210px;
 }
