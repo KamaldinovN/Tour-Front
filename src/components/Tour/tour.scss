@@ -1,5 +1,6 @@
 .tour__container{
   max-width: 1920px;
+  min-width: 900px;
 }
 
 .tour__block{
@@ -12,7 +13,7 @@
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.5;
-  &:active{
+  &.active{
     color: rgb(242, 203, 67);
   }
 }
@@ -20,4 +21,8 @@
 .card-box{
   display: flex;
   justify-content: space-evenly
+}
+
+.alice-carousel__stage-item {
+  margin-left:210px;
 }

@@ -3,12 +3,6 @@ import style from "./header.scss";
 import facebook from "./images/inst.png";
 import instagram from "./images/insta.png";
 import mainLogo from "./images/logoo.png";
-import BackgroundSlider from "react-background-slider";
-import banner1 from "./images/banner1.png";
-import banner2 from "./images/banner2.png";
-import banner3 from "./images/banner3.png";
-import banner4 from "./images/banner4.png";
-import banner5 from "./images/banner5.png";
 
 import React from "react";
 
